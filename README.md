@@ -33,8 +33,8 @@ ansible_tower_tar_URL = "https://releases.ansible.com/ansible-tower/setup/ansibl
 
 &nbsp;&nbsp;
 
-Copy publish and private ssh key file(id_rsa.pub & id_rsa).
-* [x] Publish ssh key will be use to create ssh-key pair and attach with EC2 instance.
+Copy public and private ssh key file(id_rsa.pub & id_rsa).
+* [x] Public ssh key will be use to create ssh-key pair and attach with EC2 instance.
 * [x] Private ssh key will be use to take ssh on EC2 instance and perform further Ansible Tower installation.
 
 &nbsp;
